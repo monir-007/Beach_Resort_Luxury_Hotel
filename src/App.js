@@ -9,9 +9,12 @@ import ErrorPage from "./pages/ErrorPage";
 
 import { Route, Switch } from "react-router-dom";
 
+import Naavbar from "./components/Navbar";
+
 function App() {
   return (
     <>
+      <Naavbar />
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/rooms/" component={Rooms} />
