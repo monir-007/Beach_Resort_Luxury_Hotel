@@ -1,7 +1,7 @@
 import React from "react";
-
+import Hero from "../components/Hero";
 const rooms = () => {
-  return <div>Hello from rooms page.</div>;
+  return <Hero hero="roomsHero" />;
 };
 
 export default rooms;

@@ -4,7 +4,7 @@ export default class SingleRoom extends Component {
     render() {
         return (
             <div>
-                Hello From single page.
+                hello from single room page
             </div>
         )
     }
